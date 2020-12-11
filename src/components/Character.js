@@ -23,8 +23,10 @@ export default function Character(props){
     return <StyledCharacter key={character.id}>
       <ul>
         <h3>Name: {character.name}</h3>
+        <h4>Status: {character.status}</h4>
         <h4>Species: {character.species}</h4>
         <h4>Gender: {character.gender}</h4>
+        <h4>Type: {character.type}</h4>
         <img src={character.image}/>
       </ul>
     </StyledCharacter>
